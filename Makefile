@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -std=c++11 -Wall -g
 
-TARGET = myprogram
+TARGET = myprogram.exe
 SRCS = main.cpp 
 OBJS = $(SRCS:.cpp=.o)
 DEPS = 
