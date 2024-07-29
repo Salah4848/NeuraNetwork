@@ -1,10 +1,10 @@
 CC = g++
-CFLAGS = -std=c++11 -Wall -g
+CFLAGS = -I /usr/include/eigen3 -std=c++11 -Wall -g
 
 TARGET = myprogram.exe
-SRCS = main.cpp 
+SRCS = main.cpp Layer.cpp
 OBJS = $(SRCS:.cpp=.o)
-DEPS = 
+DEPS = Layer.h
 
 .PHONY: all clean
 
